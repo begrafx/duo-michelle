@@ -1,0 +1,5 @@
+- validate html
+- add list of series
+- populate database
+- add more fields
+- filter to add rss feed links to widgets
