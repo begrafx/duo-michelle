@@ -939,7 +939,14 @@ ul.social-children {
   color: #4b6985;
 } li#tumblr a:hover {
   background: #cfdbe5;
-  color: #000;  
+  color: #000; 
+} li#ello {
+  background: url('images/icons/ello.png') no-repeat top left;
+} li#ello a {
+  color: #4b4b4b;
+} li#ello a:hover {
+  background: #d3d3d3;
+  color: #000; 
   
 } li.rss {
   font-size: 1em;
