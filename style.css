@@ -1,8 +1,8 @@
 /*
 	Theme Name: Michelle Sagara West
 	Theme URI: http://aarontgrogg.com/boilerplate/
-	Description: A custom theme based on Boilerplate. 
-	
+	Description: A custom theme based on Boilerplate.
+
 	A merger created by Aaron T. Grogg (<a href="http://aarontgrogg.com/">http://aarontgrogg.com/</a>) of the HTML5 Boilerplate (<a href="http://html5boilerplate.com/">http://html5boilerplate.com/</a>) and the Starkers theme (<a href="http://starkerstheme.com/">http://starkerstheme.com/</a>), Boilerplate: Starkers provides developers with an ideal, bleeding-edge, clean-start theme.  Mark-up is minimal (thanks Elliott) and the most edge-case web technology is baked right in (thanks Paul, Divya and a large cast of supporting characters)!  Boilerplate themes are designed to serve as a Parent theme to whatever Child (<a href="http://codex.wordpress.org/Child_Themes">http://codex.wordpress.org/Child_Themes</a>) you care to add, but you could just as easily use this as a starting point and alter the PHP as your design needs.  More about this theme can be found at <a href="http://aarontgrogg.com/boilerplate/">http://aarontgrogg.com/boilerplate/</a>.
 	Author: Sarah Semark, based on Boilerplate by Aaron T. Grogg, based on the work of Paul Irish, Divya Manian, and Elliot Jay Stocks
 	Author URI: http://triggersandsparks.com
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
  *
  * Author: sarah semark
  */
- 
+
 
 
 /* basic body styles */
@@ -217,9 +217,9 @@ body:before {
 
 
 nav ul {
-  padding: 0 0 0 30px; 
+  padding: 0 0 0 30px;
   font-size: 0.825em; text-transform: uppercase; letter-spacing: 1px;
-  list-style: none; 
+  list-style: none;
   background: #473a00; /* Old browsers */
   background: -moz-linear-gradient(top,  #473a00 0%, #3d3300 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#473a00), color-stop(100%,#3d3300)); /* Chrome,Safari4+ */
@@ -232,8 +232,8 @@ nav ul {
   -moz-box-shadow: 0px 0px 3px #4a3d00;
   -webkit-box-shadow: 0px 0px 3px #4a3d00;
   box-shadow: 0px 0px 3px #4a3d00;
-  height: 38px; 
-} 
+  height: 38px;
+}
 nav li {
   transition: all 100ms ease-in-out;
   -moz-transition: all 100ms ease-in-out;
@@ -355,7 +355,7 @@ h1, h2.entry-title {
   color: #876944;
   font-size: 2em;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
-  
+
 } a {
   color: #5c5322;
 }
@@ -372,7 +372,7 @@ h1, h2.entry-title {
 } em, i {
   font-family: Palatino, sans-serif;
   font-style: italic;
-  font-size: 1.1em;  
+  font-size: 1.1em;
 } .entry-content > p:first-child:first-letter {
   color: #876944;
   float: left;
@@ -397,7 +397,7 @@ h1, h2.entry-title {
   color: #37596b;
 } div.west a:hover {
   background: none;
-  color: #273f4d; 
+  color: #273f4d;
 } span.sagara, div.sagara h2, div.sagara h2 a, div.sagara a {
   color: #426433;
 } div.sagara a:hover {
@@ -406,7 +406,7 @@ h1, h2.entry-title {
 } div.sagarawest a:hover {
   background: none;
   color: #453e1a;
-  
+
 } div.preview, div.publication {
   background: rgb(194, 189, 162); background: rgba(92, 83, 34, 0.4);
   border: 1px solid #574e21;
@@ -448,10 +448,10 @@ h1, h2.entry-title {
 } div.preview  {
   float: right;
   margin: 25px 0 0 0;
-  padding: 15px 20px 5px 140px;
+  padding: 15px 20px 15px 140px;
   width: 280px;
   z-index: 2;
-  min-height: 250px;
+  min-height: 240px;
 } div.preview h2 {
   text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
   font-size: 2em;
@@ -471,7 +471,7 @@ h1, h2.entry-title {
 
 /* book page */
 div.publication {
-  padding: .75em 1em;  
+  padding: .75em 1em;
 } div.publication > p:first-child, div.publication p {
   text-indent: none;
   margin: .25em 0;
@@ -515,7 +515,7 @@ div.publication {
 } li#advanced-recent-posts-3 {
   margin-right: 0;
 } .advanced_recent_posts_widget ul li {
-  border-bottom: 1px solid #4a3d00; 
+  border-bottom: 1px solid #4a3d00;
 }
 
 /* series list */
@@ -540,9 +540,9 @@ div.publication {
   background: none;
 } h3 a {
   text-decoration: none;
-  
-  
-  
+
+
+
 } .series:first-child {
   margin-left: -120px; margin-top: 5px;
 } .series:first-child img {
@@ -557,14 +557,14 @@ div.publication {
 } .series:nth-child(2) {
   margin-left: -25px; margin-top: 20px;
 } .series:nth-child(2) img {
-  z-index: 1000;  
+  z-index: 1000;
   transform: rotate(1deg);
   -moz-transform: rotate(1deg);
   -webkit-transform: rotate(1deg);
   -ms-transform: rotate(1deg);
   -o-transform: rotate(1deg);
   -sand-transform: rotate(1deg);
-  
+
 } .series:nth-child(3) {
   margin-left: -5px; margin-top: 0px;
 } .series:nth-child(3) img {
@@ -575,7 +575,7 @@ div.publication {
   -ms-transform: rotate(-4deg);
    -o-transform: rotate(-4deg);
    -sand-transform: rotate(-4deg);
-   
+
 } .series:nth-child(4) {
   margin-left: -5px; margin-top: 25px;
 } .series:nth-child(4) img {
@@ -590,14 +590,14 @@ div.publication {
 } .series:nth-child(5) {
   margin-left: -15px; margin-top: 10px;
 } .series:nth-child(5) img {
-  z-index: 100; 
+  z-index: 100;
   transform: rotate(3deg);
   -moz-transform: rotate(3deg);
   -webkit-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
    -o-transform: rotate(3deg);
    -sand-transform: rotate(3deg);
-  
+
 } .series:nth-child(6) {
   margin-left: -5px; margin-top: 5px;
 } .series:nth-child(6) img {
@@ -705,14 +705,14 @@ article .entry-meta {
   font-size: 1.1em;
   line-height: 20px;
   margin: .5em 0 1em 0;
-} a#twitter_signin { 
+} a#twitter_signin {
   background: url('images/icons/twitter.png') no-repeat top left;
   color: #1e76a7;
   float: left;
 } a#twitter_signin:hover {
   background-color: #cfdde5;
   color: #000;
-} a#facebook_signin { 
+} a#facebook_signin {
   float: right;
   text-align: right;
   background: url('images/icons/facebook.png') no-repeat top left;
@@ -886,7 +886,7 @@ ul.social-children {
 } #sidebar h3 {
   margin-bottom: 10px;
 } #sidebar ul ul, #sidebar p {
-   font-size: 1.0em; 
+   font-size: 1.0em;
    line-height: 1.1em;
    text-align: left;
    font-family: Helvetica, sans-serif;
@@ -896,7 +896,7 @@ ul.social-children {
   margin: 0.5em 0;
 } #sidebar a {
   text-decoration: none;
-  
+
 } .textwidget ul {
   margin-top:5px;
 } .textwidget li, li.rss {
@@ -939,15 +939,15 @@ ul.social-children {
   color: #4b6985;
 } li#tumblr a:hover {
   background: #cfdbe5;
-  color: #000; 
+  color: #000;
 } li#ello {
   background: url('images/icons/ello.png') no-repeat top left;
 } li#ello a {
   color: #4b4b4b;
 } li#ello a:hover {
   background: #d3d3d3;
-  color: #000; 
-  
+  color: #000;
+
 } li.rss {
   font-size: 1em;
   background: url('images/icons/rss.png') no-repeat top left;
@@ -956,7 +956,7 @@ ul.social-children {
 } li.rss a:hover {
   background: #e5d3c3;
   color: #000;
-} 
+}
 
 
 
@@ -991,7 +991,7 @@ input, textarea {
   outline: 0 none;
 } input[type=text], input[type=search] {
   width: 210px;
-  -webkit-appearance: textfield;  
+  -webkit-appearance: textfield;
 } .wpcf7-form label, label.social-label {
   width: 140px;
   float: left;
@@ -1050,7 +1050,7 @@ input, textarea {
   margin: 0;
 } form#subscribe-blog p:first-child {
   margin-bottom: .5em;
-} 
+}
 
 
 
