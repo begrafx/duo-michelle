@@ -378,18 +378,18 @@ h1, h2.entry-title {
   float: left;
   line-height: 1em;
   font-size: 7em;
-  margin: 0 0.15em 0.1em -0.2em;
+  margin: 0 .15em 0.1em -0.5em;
   font-family: "LaPorteniadelaRecoleta", Baskerville, Palatino;
   font-weight: normal;
+  width: 0.85em;
 } .entry-content > p:first-child {
-  text-indent: 1.25em;
+  position: relative;
 } .entry-content > p:nth-child(2) {
     clear: left;
 } p.intro {
   font-size: 1.4em;
   margin: 0;
 } .entry-content > p.intro:first-child {
-  text-indent: .5em;
 
 } div.west a, div.sagara a {
   text-decoration: none;
